@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.org.academia.volp" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Volp</name>
+    <description>
+       Vocabulário Ortográfico da Língua Portuguesa.
+    </description>
+    <author email="raphael@academia.org.br" href="http://www.academia.org.br/">
+        Academia Brasileira de Letras
+    </author>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="Logger">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
+
+    <content src="index.html" />
+    <access origin="*" />
+   <!-- <allow-navigation href="http://www.academia.org.br:8080/volp/api/v1/synchronization/*" />  -->
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+ 
+    <preference name="orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true"/>        
+   <!--  <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="FadeSplashScreen" value="false" /> 
+    <preference name="SplashScreenDelay" value="6000"/>
+    <preference name="SplashScreen" value="screen"/>-->
+    <!-- <preference name="SplashScreenDelay" value="10000"/>-->
+    <preference name="SplashScreen" value="screen"/>
+    
+   
+   
+
+</widget>
